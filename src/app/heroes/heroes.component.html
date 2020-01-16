@@ -1,0 +1,20 @@
+<h3>Heroes</h3>
+<button (click)="getHeroes()">GET /products</button>
+dsdsds
+
+
+<table >
+    <tr><th>Id</th><th>Nombre  tesorero</th><th>Rut</th><th>Nombre  de tesoreria</th><th>Funcion</th></tr>
+    <tr *ngFor="let x of heroes.tesoreroById  " >
+        <td>{{x.idTesoreriaInstit}}</td>
+        <td>{{x.nombreTesorero}}</td>
+        <td>{{x.rut}}</td>
+        <td>{{x.nombreTesoreria}}</td>
+        <td>{{x.funcion}}</td>
+    </tr>
+</table>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
